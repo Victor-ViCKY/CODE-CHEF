@@ -1,0 +1,11 @@
+# CODE-CHEF
+# cook your dish here
+t=int(input())
+for i in range(t):
+    x=int(input())
+    if x<=300:
+        c=3000
+        print(c)
+    else:
+        c=x*10
+        print(c)
