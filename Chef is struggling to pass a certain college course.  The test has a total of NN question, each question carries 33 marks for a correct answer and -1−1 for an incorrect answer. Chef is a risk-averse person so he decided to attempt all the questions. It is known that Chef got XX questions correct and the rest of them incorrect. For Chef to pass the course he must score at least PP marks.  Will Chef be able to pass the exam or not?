@@ -1,0 +1,12 @@
+# CODE-CHEF
+# cook your dish here
+t=int(input())
+for i in range(t):
+    n,x,p=map(int,input().split())
+    y=x*3
+    z=-1*(n-x)
+    b=y-abs(z)
+    if b<p:
+        print("FAIL")
+    else:
+        print("PASS")
